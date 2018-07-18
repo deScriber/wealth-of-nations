@@ -1,0 +1,68 @@
+.Background {
+  background: #A5A8B0
+}
+
+.BarChart {
+  padding: 0;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 425px;
+  margin: 0;
+}
+
+.BarChart li {
+  display: block;
+  padding: 1.5625rem 0;
+  position: relative;
+  text-align: center;
+  vertical-align: bottom;
+  border-radius: 4px 4px 0 0;
+  max-width: 20%;
+  height: 100%;
+  margin: 0 1.8% 0 0;
+  -webkit-flex: 1 1 15%;
+      -ms-flex: 1 1 15%;
+          flex: 1 1 15%;
+}
+
+.BarChart .BarChart-axis {
+  -webkit-flex: 1 1 8%;
+      -ms-flex: 1 1 8%;
+          flex: 1 1 8%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.BarChart .description {
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 14px;
+  bottom: 20px;
+  position: absolute;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.BarChart-bar {
+  border: 2px 2px 1px 1px solid #A5A8B0;
+  background: linear-gradient(#140031, #916F00 100%);
+}
+
+.BarChart-bar:nth-child(odd)  {
+  border: 2px 2px 1px 1px solid #A5A8B0;
+  background: linear-gradient(#1E0600, #916F00 100%);
+}
