@@ -63,7 +63,17 @@
   background: linear-gradient(#140031, #916F00 100%);
 }
 
+.BarChart-bar:hover {
+  border: 2px 2px 1px 1px solid #A5A8B0;
+  background: linear-gradient(#916F00, #140031 100%);
+}
+
 .BarChart-bar:nth-child(odd)  {
   border: 2px 2px 1px 1px solid #A5A8B0;
   background: linear-gradient(#1E0600, #916F00 100%);
+}
+
+.BarChart-bar:nth-child(odd):hover  {
+  border: 2px 2px 1px 1px solid #A5A8B0;
+  background: linear-gradient(#916F00, #1E0600 100%);
 }
